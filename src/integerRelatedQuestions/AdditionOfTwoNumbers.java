@@ -2,16 +2,14 @@ package integerRelatedQuestions;
 
 public class AdditionOfTwoNumbers {
 	
-	public static int addition(int a, int b) {
+	public int addition(int a, int b) {
 		return a+b;
 	}
-
-	public static void main(String[] args) {
+	
+	public static void main(String args[]) {
+		AdditionOfTwoNumbers ob =new AdditionOfTwoNumbers();
 		
-
-		int sum=addition(12,45);
-		
-		System.out.println(sum);
+		System.out.println("Addition of two numbers : "+ob.addition(10, 5));
 	}
 
 }
