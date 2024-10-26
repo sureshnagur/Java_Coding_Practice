@@ -3,7 +3,7 @@ package integerRelatedQuestions;
 public class FibonassiSequence {
 
 	public static void printFibonacci(int count) {
-
+//Print fibonacci sequence by using recursion
 		int a = 0;
 		int b = 1;
 		int c = 1;
