@@ -9,7 +9,7 @@ public class RemoveSpecialCharacterFromString {
 		
 		String s="#$%^^%$%^&* log 01458632";
 		
-		s=s.replaceAll("[^a-zA-Z0-9]", "");  //^ this is not symbol. it means except a-zA-Z0-9 these all will be reaplced with the condition what we mentioon
+		s=s.replaceAll("[^a-zA-Z0-9]", "");  //^ this is not symbol. it means except a-zA-Z0-9 these all will be replaced with the condition what we mention
 		
 		System.out.println(s);
 
